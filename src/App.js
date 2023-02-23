@@ -6,6 +6,7 @@ import {Product} from './Product';
 import Contact from './Contact';
 import AboutUs from './AboutUs';
 import './index.css';
+import Basket from './Basket';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element = {<Main />}/>
         <Route path="/contact" element = {<Contact />}/>
         <Route path="/aboutus" element = {<AboutUs />}/>
+        <Route path="/basket" element = {<Basket />}/>
         <Route path="/product/:id" element = {<Product />}/>
       </Routes>
       <Footer />

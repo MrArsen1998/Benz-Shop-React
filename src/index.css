@@ -4,6 +4,12 @@
     margin: 0;
     padding: 0;
 }
+
+a:-webkit-any-link{
+    color: white;
+    text-decoration: none;
+}
+
 body {
    background: #0c0c24;
    color: white;
@@ -18,7 +24,8 @@ body {
 
 header .logo {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 35px;
+    font-family: 'Cardo', serif;
 }
 
 header ul.nav {
@@ -31,6 +38,8 @@ header ul.nav li {
     margin-left: 25px;
     cursor: pointer;
     transition: opacity 500ms ease;
+    color: white;
+    font-size: 20px;
 }
 
 header ul.nav li:hover {
@@ -38,7 +47,7 @@ header ul.nav li:hover {
 }
 
 
-header .presentation {
+.presentation {
     margin: 50px 0;
     background: url('./Background_img/background.jpg') no-repeat;
     width: 100%;
@@ -49,25 +58,33 @@ header .presentation {
     position: relative;
 }
 
-header .presentation::after {
+.presentation::after {
     content: 'Mercedes-Benz';
     position: absolute;
-    top: 100px;
+    top: 70px;
     left: 50px;
     font-size: 40px;
     font-weight: 600;
     color: white;
 }
 
-header .presentation::before {
+.presentation::before {
     content: 'Make every drive an adventure';
     position: absolute;
-    top: 150px;
+    top: 120px;
     left: 50px;
     width: 300px;
     font-size: 15px;
     font-weight: 300;
     color: white;
+}
+
+.card-logo{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    position: relative;
+    top: 10px;
 }
 
 .main{
@@ -90,8 +107,11 @@ header .presentation::before {
 .text_box h4{
     margin-bottom: 10px;
     font-size: 30px;
+    transition: opacity 500ms ease;
 }
-
+.text_box h4:hover {
+    opacity: 0.5;
+}
 .price {
     color: black;
     font-size: 22px;
@@ -122,5 +142,85 @@ header .presentation::before {
 
 footer {
     text-align: center;
-    top: 100px;
+}
+
+.about-us-img {
+    width: 100%;
+    height: 500px;
+    margin: 50px 0;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-img {
+    width: 100%;
+    height: 500px;
+    margin: 50px 0;
+}
+
+.social-logo {
+    margin: 10px;
+    align-items: center;
+    transition: opacity 500ms ease;
+}
+
+.social-logo:hover {
+    opacity: 0.5;
+}
+
+.about-item-title {
+    color: white;
+    font-family: 'Cardo', serif;
+    font-weight: 300;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-item-image {
+    width: 100%;
+}
+
+.setting-title {
+    margin-left: 150px;
+    color: white;
+    font-family: 'Cardo', serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.about-item {
+    margin-left: 260px;
+    margin-bottom: 25px;
+    color: white;
+    font-family: 'Cardo', serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.performance-image {
+    width: 100%;
+}
+
+.setting-title-2{
+    margin-left: 50px;
+    color: white;
+    font-family: 'Cardo', serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.about {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.about-text{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }

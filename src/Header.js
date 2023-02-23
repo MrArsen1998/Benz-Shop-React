@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header>
         <div>
-            <span className='logo'>Benz Shop</span>
+            <span className='logo'><Link to ="/">Benz Shop</Link></span>
             <ul className='nav'>
                 <li> 
                   <Link to ="/aboutus">About Us</Link>
@@ -13,9 +13,9 @@ export default function Header() {
                 <li> 
                   <Link to ="/contact">Contact</Link>
                 </li>
+                <Link to ="/Basket"><img className='card-logo' src='./img/card-logo.png' alt=''/></Link>
             </ul>
         </div>
-        <div className='presentation'></div>
     </header>
   )
 }

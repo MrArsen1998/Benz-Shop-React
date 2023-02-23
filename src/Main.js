@@ -4,8 +4,10 @@ import { Link } from "react-router-dom";
 export default function Main(){
     return(
         <div className="main">
+            <div className="presentation"></div>
             {productsData.map((el) => {
                 return(
+                    
                     <div key={el.id} className = 'main'>
                         <div className="card">
                             <img src={el.image} alt="No data" className="images" />
