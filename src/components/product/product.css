@@ -1,0 +1,42 @@
+
+.about-item-title {
+    color: white;
+    font-family: 'Cardo', serif;
+    font-weight: 300;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-item-image {
+    width: 100%;
+}
+
+.setting-title {
+    margin-left: 150px;
+    color: white;
+    font-family: 'Cardo', serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.about-item {
+    margin-left: 260px;
+    margin-bottom: 25px;
+    color: white;
+    font-family: 'Cardo', serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.performance-image {
+    width: 100%;
+}
+
+.setting-title-2{
+    margin-left: 50px;
+    color: white;
+    font-family: 'Cardo', serif;
+    font-weight: 500;
+    font-size: 25px;
+}

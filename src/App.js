@@ -1,13 +1,14 @@
 import { Route, Routes } from 'react-router-dom';
-import Header from "./Header";
-import Footer from "./Footer";
-import Main from "./Main";
-import {Product} from './Product';
-import Contact from './Contact';
-import AboutUs from './AboutUs';
-import './index.css';
-import Basket from './Basket';
 import {useState} from 'react';
+import {Product} from './components/product/Product';
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import Contact from './components/contact/Contact';
+import AboutUs from './components/about_us/AboutUs';
+import Basket from './components/basket/Basket';
+import Main from "./Main";
+import './index.css';
+
 
 function App() {
   const [card, setCard] = useState([])
@@ -15,7 +16,7 @@ function App() {
     setCard([...card, product])
   }
   return (
-    <div className="wrapper">
+    <div className="all">
       <Header />
       <Routes>
         <Route path="/" element = {<Main addToCard={addToCard}/>}/>

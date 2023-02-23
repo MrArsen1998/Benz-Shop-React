@@ -1,4 +1,4 @@
-import {productsData} from "./Product";
+import {productsData} from "./components/product/Product";
 import { Link } from "react-router-dom";
 
 

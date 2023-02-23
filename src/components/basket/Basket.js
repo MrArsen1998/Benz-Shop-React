@@ -1,4 +1,5 @@
 import React from 'react'
+import './basket.css'
 
 export default function Basket({ card }) {
   let totalAmount = 0;
@@ -9,7 +10,7 @@ export default function Basket({ card }) {
         return (
           <div key={element.id}>
             <div className='card-item'>
-              <img src={element.image} />
+              <img src={element.image} alt=""/>
               <div className='card-item-info'>
                 <h1>{element.title}</h1>
                 <p>{element.price}$</p>

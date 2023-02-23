@@ -15,37 +15,9 @@ body {
    color: white;
    font-family: 'Cardo', serif;
    font-weight: 300;
+   max-width: 1280px;
+   margin: 50px auto;
 }
-
-.wrapper {
-    width: 1280px;
-    margin: 50px auto;
-}
-
-header .logo {
-    font-weight: 600;
-    font-size: 35px;
-    font-family: 'Cardo', serif;
-}
-
-header ul.nav {
-    float: right;
-    list-style: none;
-}
-
-header ul.nav li {
-    display: inline;
-    margin-left: 25px;
-    cursor: pointer;
-    transition: opacity 500ms ease;
-    color: white;
-    font-size: 20px;
-}
-
-header ul.nav li:hover {
-    opacity: 0.5;
-}
-
 
 .presentation {
     margin: 50px 0;
@@ -56,6 +28,7 @@ header ul.nav li:hover {
     background-blend-mode: multiply;
     background-color: #bcbcbc;
     position: relative;
+    
 }
 
 .presentation::after {
@@ -79,13 +52,6 @@ header ul.nav li:hover {
     color: white;
 }
 
-.card-logo{
-    width: 30px;
-    height: 30px;
-    margin-left: 5px;
-    position: relative;
-    top: 10px;
-}
 
 .main{
     display: flex;
@@ -140,100 +106,11 @@ header ul.nav li:hover {
     opacity: 0.7;
 }
 
-footer {
-    text-align: center;
-}
-
-.about-us-img {
-    width: 100%;
-    height: 500px;
-    margin: 50px 0;
-}
-
-.contacts {
-    display: flex;
-    justify-content: center;
-}
-
-.contacts-img {
-    width: 100%;
-    height: 500px;
-    margin: 50px 0;
-}
-
-.social-logo {
-    margin: 10px;
-    align-items: center;
-    transition: opacity 500ms ease;
-}
-
-.social-logo:hover {
-    opacity: 0.5;
-}
-
-.about-item-title {
-    color: white;
-    font-family: 'Cardo', serif;
-    font-weight: 300;
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.about-item-image {
-    width: 100%;
-}
-
-.setting-title {
-    margin-left: 150px;
-    color: white;
-    font-family: 'Cardo', serif;
-    font-weight: 500;
-    font-size: 25px;
-}
-
-.about-item {
-    margin-left: 260px;
-    margin-bottom: 25px;
-    color: white;
-    font-family: 'Cardo', serif;
-    font-size: 20px;
-    font-style: italic;
-}
-
-.performance-image {
-    width: 100%;
-}
-
-.setting-title-2{
-    margin-left: 50px;
-    color: white;
-    font-family: 'Cardo', serif;
-    font-weight: 500;
-    font-size: 25px;
-}
-
-.about {
-    text-align: center;
-    font-size: 30px;
-    font-weight: 300;
-}
-
-.about-text{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
 
 
 
-.card-item {
-    display: flex;
-    justify-content: space-between;
-}
 
-.total-amount{
-    text-align: center;
-    font-size: 30px;
-    font-weight: 300;
-}
+
+
+
+
