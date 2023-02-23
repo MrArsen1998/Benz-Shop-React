@@ -224,3 +224,16 @@ footer {
     margin-top: 10px;
     margin-bottom: 30px;
 }
+
+
+
+.card-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-amount{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+}
