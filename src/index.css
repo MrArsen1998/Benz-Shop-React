@@ -106,6 +106,12 @@ body {
     opacity: 0.7;
 }
 
+.images{
+    width: 364px;
+    height: 174px;
+    object-fit:contain;
+}
+
 
 
 
